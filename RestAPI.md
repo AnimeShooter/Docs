@@ -1,6 +1,8 @@
 # Rest API
 Welcome to the Rest API documentation of  AnimeShooter.com
 
+Please keep in mind that the API holds a rate limit of only 12 requests/minute, we may increase this limit anytime soon based on bandwith consumption.
+
 ## Account
 
 Account API, authentication is done through the `Authorization` header.
