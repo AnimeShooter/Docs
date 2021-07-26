@@ -33,4 +33,4 @@ Misc, a list of stuff that might come in handy.
 |:----:|:------------:|:--------------------:|:------------|
 | GET | ``api/img/level/{lvl}`` | None | Get the PNG of the requested level. |
 | GET | ``api/img/maps/small/{name}`` | None | Get the PNG of the request map *(by name or id)* |
-| GET | ``api/pkg/unpack`` | Auth Token | Unpacks the contents of a `.pkg` file that is written to the body |
+| POST | ``api/pkg/unpack`` | Auth Token | Unpacks the contents of a `.pkg` file that is written to the body *(use `?base64=1` in URL for base64 `contents`)* |
