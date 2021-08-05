@@ -11,7 +11,7 @@ Account API, authentication is done through the `Authorization` header.
 |:----:|:------------:|:--------------------:|:------------|
 | POST | ``api/user/regiser`` | None (captcha) | Send json with `Username`, `Email`, `Password` to create an account |
 | POST | ``api/user/login`` | None (captcha) | Send JSON `Username` and `Password` to create a authentication token |
-| POST | ``api/user/update`` | Auth Token | Send JSON `Password` to update your password |
+| POST | ``api/user/update`` | Auth Token | Send JSON `OldPassword` and `NewPassword` to update your password |
 | GET | ``api/user/info`` | Auth Token | Obtains information about your player |
 
 ## Open 
